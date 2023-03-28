@@ -11,7 +11,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "a7i8eda8-e48b-4bd5-8a4e-4f792fe88e9f",
+                        "id": "4b6135f3-ce69-4696-ba0f-9ea83cafc782",
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -21,19 +21,19 @@
                         "dest": 3001
                     },
                     {
-                        "path": "/'$id'-vless",
+                        "path": "/-vless",
                         "dest": 3002
                     },
                     {
-                        "path": "/'$id'-vmess",
+                        "path": "/-vmess",
                         "dest": 3003
                     },
                     {
-                        "path": "/'$id'-trojan",
+                        "path": "/-trojan",
                         "dest": 3004
                     },
                     {
-                        "path": "/'$id'-shadowsocks",
+                        "path": "/-shadowsocks",
                         "dest": 3005
                     }
                 ]
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "a7i8eda8-e48b-4bd5-8a4e-4f792fe88e9f"
+                        "id": "4b6135f3-ce69-4696-ba0f-9ea83cafc782"
                     }
                 ],
                 "decryption": "none"
@@ -66,7 +66,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "a7i8eda8-e48b-4bd5-8a4e-4f792fe88e9f",
+                        "id": "4b6135f3-ce69-4696-ba0f-9ea83cafc782",
                         "level": 0
                     }
                 ],
@@ -76,7 +76,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/'$id'-vless"
+                    "path": "/-vless"
                 }
             },
             "sniffing": {
@@ -96,7 +96,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "a7i8eda8-e48b-4bd5-8a4e-4f792fe88e9f",
+                        "id": "4b6135f3-ce69-4696-ba0f-9ea83cafc782",
                         "alterId": 0
                     }
                 ]
@@ -104,7 +104,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/'$id'-vmess"
+                    "path": "/-vmess"
                 }
             },
             "sniffing": {
@@ -124,7 +124,7 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "a7i8eda8-e48b-4bd5-8a4e-4f792fe88e9f"
+                        "password": "4b6135f3-ce69-4696-ba0f-9ea83cafc782"
                     }
                 ]
             },
@@ -132,7 +132,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/'$id'-trojan"
+                    "path": "/-trojan"
                 }
             },
             "sniffing": {
@@ -153,7 +153,7 @@
                 "clients": [
                     {
                         "method": "chacha20-ietf-poly1305",
-                        "password": "a7i8eda8-e48b-4bd5-8a4e-4f792fe88e9f"
+                        "password": "4b6135f3-ce69-4696-ba0f-9ea83cafc782"
                     }
                 ],
                 "decryption": "none"
@@ -161,7 +161,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/'$id'-shadowsocks"
+                    "path": "/-shadowsocks"
                 }
             },
             "sniffing": {
