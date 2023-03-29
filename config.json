@@ -21,7 +21,7 @@
                         "dest": 3001
                     },
                     {
-                        "path": "/4b6135f3-ce69-4696-ba0f-9ea83cafc782-vless",
+                        "path": "/'$id'-vless",
                         "dest": 3002
                     },
                     {
@@ -76,7 +76,7 @@
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/4b6135f3-ce69-4696-ba0f-9ea83cafc782-vless"
+                    "path": "/'$id'-vless"
                 }
             },
             "sniffing": {
